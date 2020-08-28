@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="008YISesijeKGI">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/server.src-session"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/server.src-configuration"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/user.src-app.services"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/server.src-cache"/>
+        <property name="context-root" value="008YISesijeKGI"/>
+        <property name="java-output-path" value="/008YISesijeKGI/build/classes"/>
+    </wb-module>
+</project-modules>

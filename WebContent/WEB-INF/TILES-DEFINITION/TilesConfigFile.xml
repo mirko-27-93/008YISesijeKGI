@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+	<definition name="indexPage" template="/WEB-INF/TILES-TEMPLATES/basic-table-design.jsp">
+		<put-attribute name="header_message" value="/WEB-INF/TILES-PARTS/home-header-message.jsp" />
+		<put-attribute name="menu_content" value="/WEB-INF/TILES-PARTS/home-menu-content.jsp" />
+		<put-attribute name="body_content" value="/WEB-INF/TILES-PARTS/home-body-content.jsp" />
+		<put-attribute name="specific_form" value="/WEB-INF/TILES-PARTS/home-specific-form.jsp" />
+		<put-attribute name="profile_content" value="/WEB-INF/TILES-PARTS/home-profile-content.jsp" />
+		<put-attribute name="footer_message" value="/WEB-INF/TILES-PARTS/home-footer-message.jsp" />
+    </definition>
+    <definition name="simplePage" template="/WEB-INF/TILES-TEMPLATES/simple-table-design.jsp">
+		<put-attribute name="header_message" value="/WEB-INF/TILES-PARTS/simple-header-message.jsp" />
+		<put-attribute name="menu_content" value="/WEB-INF/TILES-PARTS/simple-menu-content.jsp" />
+		<put-attribute name="body_content" value="/WEB-INF/TILES-PARTS/simple-body-content.jsp" />
+		<put-attribute name="specific_form" value="/WEB-INF/TILES-PARTS/simple-specific-form.jsp" />
+		<put-attribute name="profile_content" value="/WEB-INF/TILES-PARTS/simple-profile-content.jsp" />
+		<put-attribute name="footer_message" value="/WEB-INF/TILES-PARTS/simple-footer-message.jsp" />
+    </definition>
+</tiles-definitions>

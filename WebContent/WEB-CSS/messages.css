@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+.success{
+	color:  white; 
+	margin-top: 5px; 
+	margin-right: 5px; 
+	padding-top: 5px;
+	padding-bottom: 5px; 
+	background-color: green; 
+}
+
+.error{
+	color: white; 
+	margin-top: 5px; 
+	margin-right: 5px; 
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: red; 
+}
+
+.info{
+	color: white; 
+	margin-top: 5px; 
+	margin-right: 5px; 
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: blue; 
+}
+
+a.success:link{
+	font-family: 'YI Courier New'; 
+	text-decoration: none; 
+	color: #80ff00; 
+}
+a.success:visited{
+	font-family: 'YI Courier New'; 
+	text-decoration: none; 
+	color: #80ff00; 
+}
+a.success:hover{
+	font-family: 'YI Courier New'; 
+	text-decoration: none; 
+	color: #80ff00; 
+}
+a.success:active{
+	font-family: 'YI Courier New'; 
+	text-decoration: none; 
+	color: #80ff00; 
+}
+
+
+a.error:link{
+	font-family: 'YI Courier New'; 
+	text-decoration: none; 
+	color: #ffff00; 
+}
+a.error:visited{
+	font-family: 'YI Courier New'; 
+	text-decoration: none; 
+	color: #ffff00; 
+}
+a.error:hover{
+	font-family: 'YI Courier New'; 
+	text-decoration: none; 
+	color: #ffff00; 
+}
+a.error:active{
+	font-family: 'YI Courier New'; 
+	text-decoration: none; 
+	color: #ffff00; 
+}
+
+a.info:link{
+	font-family: 'YI Courier New'; 
+	text-decoration: none; 
+	color: #00ffff; 
+}
+a.info:visited{
+	font-family: 'YI Courier New'; 
+	text-decoration: none; 
+	color: #00ffff; 
+}
+a.info:hover{
+	font-family: 'YI Courier New'; 
+	text-decoration: none; 
+	color: #00ffff; 
+}
+a.info:active{
+	font-family: 'YI Courier New'; 
+	text-decoration: none; 
+	color: #00ffff; 
+}
+
+.info a:link{
+	font-family: 'YI Courier New'; 
+	text-decoration: none; 
+	color:#00ffff; 
+}
+.info a:visited{
+	font-family: 'YI Courier New'; 
+	text-decoration:none; 
+	color:#00ffff; 
+}
+.info a:hover{
+	font-family: 'YI Courier New'; 
+	text-decoration: none; 
+	color: #00ffff; 
+}
+.info a:active{
+	font-family: 'YI Courier New'; 
+	text-decoration: none; 
+	color: #00ffff; 
+}
+
+.success a:link{
+	font-family: 'YI Courier New'; 
+	text-decoration: none; 
+	color: #80ff00; 
+}
+.success a:visited{
+	font-family: 'YI Courier New'; 
+	text-decoration:none; 
+	color: #80ff00; 
+}
+.success a:hover{
+	font-family: 'YI Courier New'; 
+	text-decoration: none; 
+	color: #80ff00; 
+}
+.success a:active{
+	font-family: 'YI Courier New'; 
+	text-decoration: none; 
+	color: #80ff00; 
+}
+
+.error a:link{
+	font-family: 'YI Courier New'; 
+	text-decoration: none; 
+	color: #ffff00; 
+}
+.error a:visited{
+	font-family: 'YI Courier New'; 
+	text-decoration:none; 
+	color: #ffff00; 
+}
+.error a:hover{
+	font-family: 'YI Courier New'; 
+	text-decoration: none; 
+	color: #ffff00; 
+}
+.error a:active{
+	font-family: 'YI Courier New'; 
+	text-decoration: none; 
+	color: #ffff00;
+}
