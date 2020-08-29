@@ -5,6 +5,9 @@
 
 <jsp:useBean id='stateDatabaseUser' class='programranje.yatospace.server.basic.bean.SessionBean' scope='session'></jsp:useBean>
 
+<% request.setCharacterEncoding("UTF-8"); %>
+<% response.setCharacterEncoding("UTF-8"); %>
+
 <c:if test='${not stateDatabaseUser.isLogged(pageContext.session)}'>
 	<c:out value='${stateDatabaseUser.getInfo().setUserName(param["username"])}'></c:out>
 	<c:out value='${stateDatabaseUser.setPassword(param["password"])}'></c:out>

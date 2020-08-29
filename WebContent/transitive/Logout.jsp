@@ -5,6 +5,9 @@
 
 <jsp:useBean id='stateDatabaseUser' class='programranje.yatospace.server.basic.bean.SessionBean' scope='session'></jsp:useBean>
 
+<% request.setCharacterEncoding("UTF-8"); %>
+<% response.setCharacterEncoding("UTF-8"); %>
+
 <c:if test='${stateDatabaseUser.isLogged(pageContext.session)}'>
 	<c:out value='${stateDatabaseUser.logout(pageContext.session)}'></c:out>
 </c:if>
